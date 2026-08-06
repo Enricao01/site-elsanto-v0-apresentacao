@@ -168,14 +168,12 @@ export function Hero() {
         >
           <span className="relative flex h-2.5 w-2.5">
             <span
-              className={`animate-ping absolute inline-flex h-full w-full rounded-full opacity-75 ${
-                isOpen ? 'bg-green-400' : 'bg-brand-red'
-              }`}
+              className={`animate-ping absolute inline-flex h-full w-full rounded-full opacity-75 ${isOpen ? 'bg-green-400' : 'bg-brand-red'
+                }`}
             ></span>
             <span
-              className={`relative inline-flex rounded-full h-2.5 w-2.5 ${
-                isOpen ? 'bg-green-500' : 'bg-brand-red'
-              }`}
+              className={`relative inline-flex rounded-full h-2.5 w-2.5 ${isOpen ? 'bg-green-500' : 'bg-brand-red'
+                }`}
             ></span>
           </span>
           <span className="text-xs font-sans tracking-[0.2em] uppercase text-brand-offwhite/90">
